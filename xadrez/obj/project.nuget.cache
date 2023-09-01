@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KaqeJXas58lpWifjsDOciSeadcH6FPYyfxYchde5nYdHM2tcPZOnaG/zMGa6rm9yjWzzpWSltWQviLTq9Ul5MQ==",
+  "dgSpecHash": "4EhC77YoXcNu/JxDLnRTr8d6AyqCXYpUxCGQ+MHjccSgVYyWSX4VdZMfpAUhEjACmE203HUjY7uG/BXiq9ICYg==",
   "success": true,
-  "projectFilePath": "c:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj",
+  "projectFilePath": "C:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
