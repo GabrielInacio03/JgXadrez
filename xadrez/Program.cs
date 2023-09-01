@@ -1,5 +1,6 @@
 ﻿using System;
-using xadrez.Entities;
+using xadrez.tabuleiro;
+using xadrez.tabuleiro;
 
 namespace xadrez // Note: actual namespace depends on the project name.
 {
@@ -7,8 +8,7 @@ namespace xadrez // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Posicao p;
-            p = new Posicao(3, 4);
+            Tabuleiro tabuleiro = new Tabuleiro(8, 8);
         }
     }
 }
