@@ -18,6 +18,7 @@ namespace xadrez.xz
             tab = new Tabuleiro(8,8);
             turno = 1;
             jogadorAtual = Cor.Branca;
+            terminada = false;
         }
         public void ExecutaMovimento(Posicao origem, Posicao destino)
         {
