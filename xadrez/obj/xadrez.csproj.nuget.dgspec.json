@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj": {}
+    "c:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj": {
+    "c:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj",
+        "projectUniqueName": "c:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj",
         "projectName": "xadrez",
-        "projectPath": "C:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj",
+        "projectPath": "c:\\workspace\\JgXadrez\\xadrez\\xadrez.csproj",
         "packagesPath": "C:\\Users\\Inaci\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\JgXadrez\\xadrez\\obj\\",
+        "outputPath": "c:\\workspace\\JgXadrez\\xadrez\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Inaci\\AppData\\Roaming\\NuGet\\NuGet.Config"
