@@ -20,5 +20,9 @@ namespace xadrez.tabuleiro
             this.cor = cor;
             this.qtdeMovimentos = 0;
         }
+        public void incrementarMovimento()
+        {
+            this.qtdeMovimentos++;
+        }
     }
 }

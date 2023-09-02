@@ -53,5 +53,17 @@ namespace xadrez.tabuleiro
                 throw new TabuleiroException("Posicão Inválida");
             }
         }
+        public Peca retirarPeca( Posicao posicao)
+        {
+            if(peca(posicao) == null)
+            {
+                return null;
+            }
+            Peca aux = peca(posicao);
+            aux.posicao = null;
+
+            pecas[posicao.Linha, posicao.Coluna] = null;
+            return aux;
+        }
     }
 }

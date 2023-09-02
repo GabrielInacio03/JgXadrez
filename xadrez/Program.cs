@@ -12,9 +12,9 @@ namespace xadrez // Note: actual namespace depends on the project name.
         {
             try
             {
-                Tabuleiro tabuleiro = new Tabuleiro(8, 8);
-                Tela.iniciarTabuleiro(tabuleiro);
-                Tela.imprimirTabuleiro(tabuleiro);
+                PartidaDeXadrez partidaDeXadrez = new PartidaDeXadrez();
+                partidaDeXadrez.iniciarTabuleiro();
+                Tela.imprimirTabuleiro(partidaDeXadrez.tab);
             }
             catch (TabuleiroException ex)
             {
