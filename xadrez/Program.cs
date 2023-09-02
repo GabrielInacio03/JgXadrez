@@ -10,11 +10,21 @@ namespace xadrez // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Tabuleiro tabuleiro = new Tabuleiro(8, 8);
-            Tela.iniciarTabuleiro(tabuleiro);
-            Tela.imprimirTabuleiro(tabuleiro);
+            try
+            {
+                Tabuleiro tabuleiro = new Tabuleiro(8, 8);
+                Tela.iniciarTabuleiro(tabuleiro);
+                Tela.imprimirTabuleiro(tabuleiro);
+            }
+            catch (TabuleiroException ex)
+            {
+                System.Console.WriteLine(ex.Message);
+            }finally
+            {
+                Console.ReadLine();
+            }
+           
 
-            Console.ReadLine();
         }
     }
 }
