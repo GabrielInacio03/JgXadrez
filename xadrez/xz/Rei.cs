@@ -15,5 +15,9 @@ namespace xadrez.xz
         {
             return "*";
         }
+        public override bool[,] movimentosPossiveis()
+        {
+            bool[,] mat = new bool[tabuleiro.linhas, tabuleiro.colunas];
+        }
     }
 }
